@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>elevateXfitness</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <img src="path_to_logo.jpg" alt="elevateXfitness Logo" class="logo">
+        <h1>Welcome to elevateXfitness</h1>
+        <p>Your journey to fitness begins here.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <h2>Our Services</h2>
+        <div class="service">
+            <img src="placeholder1.jpg" alt="Service Image">
+            <h3>Personal Training</h3>
+            <p>Customized workout plans to achieve your goals.</p>
+        </div>
+        <div class="service">
+            <img src="placeholder2.jpg" alt="Service Image">
+            <h3>Group Classes</h3>
+            <p>Join our community and train together.</p>
+        </div>
+        <div class="service">
+            <img src="placeholder3.jpg" alt="Service Image">
+            <h3>Nutrition Coaching</h3>
+            <p>Get personalized nutrition advice for a healthier lifestyle.</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>At elevateXfitness, we strive to elevate your fitness journey with professional coaching, community support, and holistic wellness programs.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 elevateXfitness. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
